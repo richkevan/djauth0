@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "data-sync"
 version = "0.1.0"
-description = ""
+description = "An independent Oauth2/OIDC compliant server written in python/django. A management dashboard enables users to handle most tasks. API endpoints provide 3rd party integrations for Identity Access Management and Oauth2 functions."
 authors = ["Rich Kevan <rskevan@me.com>"]
 readme = "README.md"
 
