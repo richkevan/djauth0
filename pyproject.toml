@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "data-sync"
+version = "0.1.0"
+description = ""
+authors = ["Rich Kevan <rskevan@me.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.6"
+djangorestframework = "^3.14.0"
+gunicorn = "^21.2.0"
+psycopg2-binary = "^2.9.9"
+dj-database-url = "^2.1.0"
+django-environ = "^0.11.2"
+whitenoise = "^6.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
